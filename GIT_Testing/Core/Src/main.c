@@ -273,7 +273,7 @@ void StartDefaultTask(void const * argument)
   for(;;)
   {
 
-//	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
+	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
       osDelay(500);
   }
   /* USER CODE END 5 */
